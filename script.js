@@ -268,15 +268,16 @@ function gameOver() {
 
     questionsContainer.innerHTML = "";
 
-    var gameOver
 
-    alert(
+    alert("You are " + quizOptions.correctCount + " out of " + questionsArray.length);
 
-        quizOptions.totalScore + "You are " + quizOptions.correctCount + " out of " + questionsArray.length)};
+    document.getElementById("question-text").innerHTML = "";
+    
+}
 
     function generateQuestion() {
         
-        if (quizOptions.questionIndex === questionsArray.length - 1) {
+        if (quizOptions.questionIndex === questionsArray.length) {
             
             gameOver();
             
@@ -298,7 +299,7 @@ function gameOver() {
             
             questionAnswer.classList.add("green");
             
-            questionAnswer.setAttribute("data-value", question.answers[1].correct);
+            questionAnswer.setAttribute("data-value", question.answers[i].correct);
             
             questionsContainer.append(questionAnswer);
         
