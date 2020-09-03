@@ -248,7 +248,7 @@ var questionsArray = [
     
     },
 
-],    
+];    
 
 var quizOptions = {
    
@@ -298,7 +298,7 @@ function gameOver() {
             
             questionAnswer.classList.add("green");
             
-            questionAnswer.setAttribute("data-value", quastion.answers[1].correct);
+            questionAnswer.setAttribute("data-value", question.answers[1].correct);
             
             questionsContainer.append(questionAnswer);
         
@@ -351,3 +351,5 @@ function gameOver() {
         generateQuestion();
     
     });
+
+    // 1 add event listener once user finishes game to submit  
