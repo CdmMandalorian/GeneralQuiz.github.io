@@ -30,9 +30,9 @@ THEN I can save my initials and score
 <a href="https://cdmmandalorian.github.io/GeneralQuiz.github.io/">General Quiz</a>
 
 ## Screenshots of General Quiz:
-<img src="">
-<img src="">
-<img src="">
+<img src="/assets/img/basicquizquestScreenshoot.png">
+<img src="/assets/img/falseanswScreenshootquiz.png">
+<img src="/assets/img/finalresultScreenshootquiz.png">
 
 ## Repository:  
 [General Quiz](https://github.com/CdmMandalorian/GeneralQuiz.github.io)  
