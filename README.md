@@ -39,10 +39,10 @@ THEN I can save my initials and score
 
   
 ## Portfolio:  
-[Armando Galindo Portfolio](https://cdmmandalorian.github.io/MResponsive-Portfolio/)
+[Armando Galindo Portfolio](https://cdmmandalorian.github.io/Armando-E-Galindo-Portfolio/)
   
 ## Credits:
 HTML 5    
-CSS     
-Bootstrap
-Javascript
+CSS      
+Bootstrap     
+Javascript   
